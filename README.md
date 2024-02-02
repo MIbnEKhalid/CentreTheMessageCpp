@@ -26,8 +26,8 @@ The console text centering functionality is particularly useful in scenarios whe
 
 ### With Minimized Window
 
-![Output Image - Minimized Window](OutputMin.png)
+![Output Image - Minimized Window](Img/OutputMin.png)
 
 ### With Maximized Window
 
-![Output Image - Maximized Window](OutputMax.png)
+![Output Image - Maximized Window](Img/OutputMax.png)
