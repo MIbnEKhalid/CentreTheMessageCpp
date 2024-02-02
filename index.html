@@ -148,17 +148,36 @@
       </h1>
       <br>
       <pre>
-        #include &lt;conio.h&gt; #include &lt;iomanip&gt; #include &lt;iostream&gt;
-        #include &lt;sstream&gt; #include &lt;string&gt; #include &lt;vector&gt;
-        #include &lt;windows.h&gt; using namespace std; void CentredMessage(const
-        string&amp; textMessage) { CONSOLE_SCREEN_BUFFER_INFO csbi; int rows; GetConsoleScreenBufferInfo(GetStdHandle(STD_OUTPUT_HANDLE),
-        &csbi); rows = csbi.srWindow.Right - csbi.srWindow.Left + 1; istringstream
-        iss(textMessage); string line; while (getline(iss, line)) { if (line.size()
-        <=r ows) { int startPosition=( rows - line.size()) / 2; cout &lt;&lt;
-        setw(startPosition + line.size()) &lt;&lt; line &lt;&lt; endl; } else {
+        #include &lt;conio.h&gt; 
+        #include &lt;iomanip&gt;
+        #include &lt;iostream&gt;
+        #include &lt;sstream&gt;
+        #include &lt;string&gt;
+        #include &lt;vector&gt;
+        #include &lt;windows.h&gt;
+        using namespace std;
+        void CentredMessage(const
+        string&amp; textMessage) 
+        { 
+        CONSOLE_SCREEN_BUFFER_INFO csbi; 
+        int rows; 
+        GetConsoleScreenBufferInfo(GetStdHandle(STD_OUTPUT_HANDLE),&csbi);
+        rows = csbi.srWindow.Right - csbi.srWindow.Left + 1;
+        istringstream iss(textMessage);
+        string line; 
+        while (getline(iss, line)) 
+        {
+        if (line.size()<=r ows)
+          { 
+          int startPosition=( rows - line.size()) / 2; cout &lt;&lt;
+        setw(startPosition + line.size()) &lt;&lt; line &lt;&lt; endl;
+          }
+          else 
+          {
         size_t middle=l ine.size() / 2; string part1=l ine.substr(0, middle); string
-        part2=l ine.substr(middle); int startPositionPart1=( rows - part1.size())
-        / 2; int startPositionPart2=( rows - part2.size()) / 2; cout &lt;&lt; setw(startPositionPart1
+        part2=l ine.substr(middle); int startPositionPart1=( rows - part1.size()) / 2; 
+          int startPositionPart2=( rows - part2.size()) / 2;
+          cout &lt;&lt; setw(startPositionPart1
         + part1.size()) &lt;&lt; part1 &lt;&lt; endl; cout &lt;&lt; setw(startPositionPart2
         + part2.size()) &lt;&lt; part2 &lt;&lt; endl; } } } int main() { system(
         "pause"); CentredMessage(
