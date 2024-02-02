@@ -8,10 +8,20 @@ The `CentredMessage` function utilizes the `setw` feature from the `<iomanip>` l
 
 ## Usage
 
-1. Clone the repository.
-2. Compile the C++ code using your preferred compiler.
-3. Run the executable.
-4. Observe the centered presentation of text messages in the console window.
+The console text centering functionality is particularly useful in scenarios where you want to enhance the visual presentation of text output in your C++ console applications. Consider utilizing this code when:
+
+- **Improving Readability:**
+  Centering text can significantly improve the readability and aesthetics of information displayed in the console window.
+
+- **Dynamic Text Lengths:**
+  Your application deals with variable-length messages, and you want them to be consistently centered regardless of their size.
+
+- **Multiline Content:**
+  You need to handle multiline content gracefully, ensuring each line is centered independently for a cohesive display.
+
+- **User-Friendly Interfaces:**
+  Creating a more user-friendly interface by presenting information in a visually appealing and organized manner.
+
 
 ## Example
 This is Centred Line
