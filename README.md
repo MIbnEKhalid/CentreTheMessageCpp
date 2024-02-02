@@ -21,9 +21,3 @@ The console text centering functionality is particularly useful in scenarios whe
 
 - **User-Friendly Interfaces:**
   Creating a more user-friendly interface by presenting information in a visually appealing and organized manner.
-
-
-## Example
-This is Centred Line
-```cpp
-                 This is Centred Line
