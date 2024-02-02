@@ -14,16 +14,6 @@ The `CentredMessage` function utilizes the `setw` feature from the `<iomanip>` l
 4. Observe the centered presentation of text messages in the console window.
 
 ## Example
-
+This is Centred Line
 ```cpp
-#include <iostream>
-#include <iomanip>
-#include <sstream>
-
-using namespace std;
-
-void CentredMessage(const string& textMessage) {
-    // ... (function implementation as described)
-
-int main() {
-    // ... (example usage as described)
+                 This is Centred Line
