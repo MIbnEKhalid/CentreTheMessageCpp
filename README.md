@@ -21,3 +21,13 @@ The console text centering functionality is particularly useful in scenarios whe
 
 - **User-Friendly Interfaces:**
   Creating a more user-friendly interface by presenting information in a visually appealing and organized manner.
+
+## Program Output
+
+### With Minimized Window
+
+![Output Image - Minimized Window](OutputMin.png)
+
+### With Maximized Window
+
+![Output Image - Maximized Window](OutputMax.png)
