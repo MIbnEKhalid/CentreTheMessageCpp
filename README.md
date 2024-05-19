@@ -1,5 +1,5 @@
 # CentreTheMessageCpp 
-https://muhammad-ibn-e-khalid.github.io/CentreTheMessageCpp/
+https://mbktechstudio.com/CentreTheMessageCpp/
 
 This console application provides a function, `CentredMessage`, designed to center text within the console window. The primary purpose is to create visually appealing text presentation, ensuring proper alignment regardless of the message length or presence of newline characters.
 
