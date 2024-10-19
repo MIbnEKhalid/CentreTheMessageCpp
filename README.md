@@ -40,4 +40,4 @@ This project is licensed under the MIT - see the [LICENSE](LICENSE) file for det
 
 ## Contact
 
-For questions or contributions, please contact Muhammad Bin Khalid at [mbktechstudio.com/support](https://mbktechstudio.com/Support/), [support@mbktechstudio.com](mailto:support@mbktechstudio.com) or [chmuhammadbinkhalid28.com](mailto:chmuhammadbinkhalid28.com).
+For questions or contributions, please contact Muhammad Bin Khalid at [mbktechstudio.com/support](https://mbktechstudio.com/Support/?Project=CentreTheMessageCpp), [support@mbktechstudio.com](mailto:support@mbktechstudio.com) or [chmuhammadbinkhalid28.com](mailto:chmuhammadbinkhalid28.com).
