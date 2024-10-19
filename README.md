@@ -32,3 +32,12 @@ The console text centering functionality is particularly useful in scenarios whe
 ### With Maximized Window
 
 ![Output Image - Maximized Window](https://raw.githubusercontent.com/MIbnEKhalid/CentreTheMessageCpp/Page/Img/OutputMax.png)
+
+
+## License
+
+This project is licensed under the MIT - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or contributions, please contact Muhammad Bin Khalid at [mbktechstudio.com/support](https://mbktechstudio.com/Support/), [support@mbktechstudio.com](mailto:support@mbktechstudio.com) or [chmuhammadbinkhalid28.com](mailto:chmuhammadbinkhalid28.com).
