@@ -27,8 +27,8 @@ The console text centering functionality is particularly useful in scenarios whe
 
 ### With Minimized Window
 
-![Output Image - Minimized Window](Img/OutputMin.png)
+![Output Image - Minimized Window](https://raw.githubusercontent.com/MIbnEKhalid/CentreTheMessageCpp/Page/Img/OutputMin.png)
 
 ### With Maximized Window
 
-![Output Image - Maximized Window](Img/OutputMax.png)
+![Output Image - Maximized Window](https://raw.githubusercontent.com/MIbnEKhalid/CentreTheMessageCpp/Page/Img/OutputMax.png)
